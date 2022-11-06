@@ -5,7 +5,7 @@ numero = random.randint(0,100)
 
 while True:
     while True:
-        intento = input("Introduzca un número entre 0 y 99:")
+        intento = input("Introduzca un numero entre 0 y 99:")
 
         try:
             intento = int(intento)
