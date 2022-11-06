@@ -3,16 +3,21 @@ import random
 numero = random.randint(0,100)
 sys.exit()
 
-intento = input("Introduzca un número entre 1 y 99: ")
-try:
-    intento = int(intento)
-except:
-    numero = 0
-while not 0 < intento <100:
-    intento = input("Introduzca un número entre 1 y 99: ")
-    try:
-        intento = int(intento)
-    except:
-        intento = 0
-    break
-print(intento)
+while True:
+    while True:
+        intento = input("Introduzca un número entre 0 y 99:")
+
+        try:
+            intento = int(intento)
+        except:
+            pass
+        else:
+            if 0 <= intento <= 99:
+                break
+    if intento > numero:
+        print("Demasiado grande")
+    elif intento < numero:
+        print("Demasiado pequeño")
+    else:
+        print("Ha ganado")
+        break
