@@ -1,7 +1,7 @@
-import sys
+
 import random
 numero = random.randint(0,100)
-sys.exit()
+
 
 while True:
     while True:
