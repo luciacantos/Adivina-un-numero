@@ -1,3 +1,4 @@
+# Adivinar un número entre 0 y 99 generando un número al azar
 
 import random
 numero = random.randint(0,100)
