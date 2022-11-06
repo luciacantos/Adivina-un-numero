@@ -16,7 +16,7 @@ while True:
     if intento > numero:
         print("Demasiado grande")
     elif intento < numero:
-        print("demasiado pequeño: ")
+        print("demasiado pequeño")
     else:
         print("Ha ganado")
         break
